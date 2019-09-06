@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArraySearching",
+            "request": "launch",
+            "mainClass": "app.ArraySearching",
+            "projectName": "ArraysRecitation"
+        }
+    ]
+}
