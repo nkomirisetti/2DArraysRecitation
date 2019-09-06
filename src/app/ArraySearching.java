@@ -15,6 +15,8 @@ public class ArraySearching {
 		int[][] testCase1 = random2DArrayTrue();
 		int[][] testCase2 = random2DArrayFalse();
 
+		testCase1[0];
+		
 		if (doesArrayContain(testCase1, 1) && !doesArrayContain(testCase2, 1)) {
 			System.out.println("You did it!!!");
 		} else {
