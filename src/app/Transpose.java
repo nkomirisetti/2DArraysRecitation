@@ -1,5 +1,7 @@
 package app;
 
+import java.util.Arrays;
+
 public class Transpose {
 	public static void main(String[] args) {
 		testMethod();
@@ -13,7 +15,7 @@ public class Transpose {
 		int[][] test1 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 		int[][] test1Output = { { 1, 4, 7 }, { 2, 5, 8 }, { 3, 6, 9 } };
 
-		if (transposeArray(test1).equals(test1Output)) {
+		if (Arrays.deepEquals(transposeArray(test1), test1Output)) {
 			System.out.println("Yay!");
 		} else {
 			System.out.println("try again!");
